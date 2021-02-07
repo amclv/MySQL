@@ -28,6 +28,38 @@ USE <name>;
 SELECT database();
 ```
 
+### Creating a table.
+
+```
+CREATE TABLE tablename
+    (
+        column_name data_type,
+        column_name data_type
+    );
+```
+
+### Show tables that are currently in your database.
+
+```
+SHOW TABLES;
+```
+
+### Show the columbs from the certain table.
+
+```
+SHOW COLUMNS FROM <tablename>;
+```
+or
+```
+DESC <tablename>;
+```
+
+### Deleting Tables
+
+```
+DROP TABLE <tablename>;
+```
+
 ### Data Types
 
 | Numeric Types | String Types | Date Types |
