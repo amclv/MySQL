@@ -28,40 +28,23 @@ USE <name>;
 SELECT database();
 ```
 
-### Numeric Types
+### Data Types
 
-- INT
-- SMALLINT
-- TINYINT
-- MEDIUMINT
-- BIGINT
-- DECIMAL
-- NUMERIC
-- FLOAT
-- DOUBLE
-- BIT
-
-### String Types
-
-- CHAR
-- VARCHAR
-- BINARY
-- VARBINARY
-- BLOB
-- TINYBLOB
-- MEDIUMBLOB
-- LONGBLOB
-- TEXT
-- TINYTEXT
-- MEDIUMTEXT
-- LONGTEXT
-- ENUM
-
-### Date Types
-
-- DATE
-- DATETIME
-
+| Numeric Types | String Types | Date Types |
+| --- | --- | --- |
+| `INT` | `CHAR` | `DATE` |
+| `SMALLINT` | `VARCHAR` | `DATETIME` |
+| `TINYINT` | `BINARY` | |
+| `MEDIUMINT` | `VARBINARY` | |
+| `BIGINT` | `BLOB` | |
+| `DECIMAL` | `TINYBLOB` | |
+| `NUMERIC` | `MEDIUMBLOB` | |
+| `FLOAT` | `LONGBLOB` | |
+| `DOUBLE` | `TEXT` | |
+| `BIT` | `TINYTEXT` | |
+| | `MEDIUMTEXT` | |
+| | `LONGTEXT` | |
+| | `ENUM` | |
 
 
 
