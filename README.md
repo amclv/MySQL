@@ -1,22 +1,32 @@
 ### Will list all the databases you have on MySQL.
 
-- show databases;
+```
+show databases;
+```
 
 ### Creates a database with the name you select.
 
-- CREATE DATABASE <name>;
+```
+CREATE DATABASE <name>;
+```
 
 ### Drops or deletes a database that you selected.
 
-- DROP DATABASE <name>;
+```
+DROP DATABASE <name>;
+```
 
 ### To use a database.
 
-- USE <name>;
+```
+USE <name>;
+```
 
 ### To verify the database you are using.
 
-- SELECT database();
+```
+SELECT database();
+```
 
 ### Numeric Types
 
