@@ -1,24 +1,24 @@
-// Will list all the databases you have on MySQL.
+### Will list all the databases you have on MySQL.
 
-show databases;
+- show databases;
 
-// Creates a database with the name you select.
+### Creates a database with the name you select.
 
-CREATE DATABASE <name>;
+- CREATE DATABASE <name>;
 
-// Drops or deletes a database that you selected.
+### Drops or deletes a database that you selected.
 
-DROP DATABASE <name>;
+- DROP DATABASE <name>;
 
-// To use a database.
+### To use a database.
 
-USE <name>;
+- USE <name>;
 
-// To verify the database you are using.
+### To verify the database you are using.
 
-SELECT database();
+- SELECT database();
 
-// Numeric Types
+### Numeric Types
 
 - INT
 - SMALLINT
@@ -31,7 +31,7 @@ SELECT database();
 - DOUBLE
 - BIT
 
-// String Types
+### String Types
 
 - CHAR
 - VARCHAR
@@ -47,7 +47,7 @@ SELECT database();
 - LONGTEXT
 - ENUM
 
-// Date Types
+### Date Types
 
 - DATE
 - DATETIME
